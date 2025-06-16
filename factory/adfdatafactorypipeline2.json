@@ -1,0 +1,9 @@
+{
+	"name": "adfdatafactorypipeline2",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ed123676-a912-426b-a2e6-fac8c043a12c",
+		"tenantId": "2b9cfba4-7dd0-4c49-aca5-d37c321064c9"
+	}
+}
