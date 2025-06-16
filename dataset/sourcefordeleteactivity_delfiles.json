@@ -1,0 +1,26 @@
+{
+	"name": "sourcefordeleteactivity_delfiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice_blobstorage",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"filenametodel": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@dataset().filenametodel",
+					"type": "Expression"
+				},
+				"container": "input"
+			}
+		}
+	}
+}
