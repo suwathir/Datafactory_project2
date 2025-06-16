@@ -8,6 +8,9 @@
 		"linkedservice_blobstorage_connectionString": {
 			"value": ""
 		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://drive.google.com/file/d/1c8iunrbXFaf3MyIwYkf4UTLSZoKjTKgt/view?usp=drive_link"
+		},
 		"containerUri": {
 			"value": ""
 		},
