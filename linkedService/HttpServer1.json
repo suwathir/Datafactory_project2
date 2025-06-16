@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://drive.usercontent.google.com/...",
+			"url": "https://drive.google.com/file/d/1c8iunrbXFaf3MyIwYkf4UTLSZoKjTKgt/view?usp=drive_link",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
